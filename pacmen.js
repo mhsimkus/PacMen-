@@ -21,7 +21,7 @@ function makePac() {
   let game = document.getElementById('game');
   let newimg = document.createElement('img');
   newimg.style.position = 'absolute';
-  newimg.src = './PacMan1.png';
+  newimg.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Pac-Man.svg/768px-Pac-Man.svg.png';
   newimg.width = 100;
   newimg.style.left = position.x;
   newimg.style.top = position.y;
